@@ -7,19 +7,17 @@
 
 body {
     background-color: #ededfd;
-    animation: ro 1s linear infinite;
-
+    
+animation: rotate 5s infinite;
 }
 
 
-@keyframes ro{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
+
+
 .container {
     display: flex;
     justify-content: center;
